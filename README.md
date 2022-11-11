@@ -1,4 +1,4 @@
-# shadow-cljs-mermaid-repro
+# shadow-cljs + mermaid bug reproduction repository
 
 ## Reproduction steps
 
