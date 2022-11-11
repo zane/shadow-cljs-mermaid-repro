@@ -1,0 +1,8 @@
+{:deps true
+ :builds {:app {:target :esm
+                :runtime :browser
+                :optimizations :none
+                :output-dir "resources"
+                :asset-path "/"
+                :modules {:main {:entries [repro]}}}}
+ :dev-http {8080 "resources"}}

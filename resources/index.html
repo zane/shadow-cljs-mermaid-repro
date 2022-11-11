@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Repro</title>
+  </head>
+  <body>
+    <pre>
+      <code class="mermaid">
+        graph TD
+        A[Client] --> B[Load Balancer]
+        B --> C[Server1]
+        B --> D[Server2]
+      </code>
+    </pre>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
