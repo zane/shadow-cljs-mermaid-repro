@@ -1,4 +1,4 @@
 (ns repro
-  (:require ["mermaid" :as mermaid]))
+  (:require ["mermaid/dist/mermaid.esm.min.mjs" :as mermaid]))
 
 (js/console.log mermaid)
